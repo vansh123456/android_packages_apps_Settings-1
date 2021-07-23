@@ -40,4 +40,13 @@
         android:key="power_button_instantly_locks"
         android:title="@string/lockpattern_settings_enable_power_button_instantly_locks" />
 
+    <com.statix.support.preferences.SystemSettingListPreference
+            android:key="fod_icon_anim_type"
+            android:title="@string/fod_icon_animation_effect_title"
+            android:summary="%s"
+            android:entries="@array/fod_icon_animation_entries"
+            android:entryValues="@array/fod_icon_animation_values"
+            android:defaultValue="0"
+            android:dependency="fod_icon_animation" />
+
 </PreferenceScreen>
